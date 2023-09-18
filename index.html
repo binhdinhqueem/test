@@ -4,10 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
+
+    <div class="header">
+        <div class="container">
+            <img src="https://static.ybox.vn/2020/9/0/1599362450757-nccplus.png" alt="">
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="navbar__container">
+            <ul class="menu">
+                <li>Home</li>
+                <li>Services</li>
+                <li>News</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="banner">
+        <div class="banner__content">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi fugiat fuga laborum rerum, maiores qui, voluptatum rem quae a nam iste eveniet. Animi aspernatur ipsam ad quibusdam vel amet praesentium laudantium eum repellat quae, magnam corporis aliquid. Sint sapiente suscipit maxime tempora quidem iste, exercitationem ullam libero error nesciunt inventore aliquid. Natus iusto quidem voluptatum accusamus, repellendus facere necessitatibus. Unde, perferendis libero alias sunt impedit reprehenderit rerum exercitationem at quibusdam reiciendis nostrum ullam accusantium odio. Hic amet cum reprehenderit!</p>
+        </div>
+    </div>
+
+
+    <div class="services">
+        <div class="service__item">
+            <div class="services__title">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <div class="services__content">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro eum laudantium quos eos repellendus tempore ea ullam, ex consequuntur temporibus vitae earum sequi aperiam. Reiciendis fugiat recusandae adipisci assumenda facere deserunt modi.</p>
+            </div>
+        </div>
+        <div class="service__item">
+            <div class="services__title">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <div class="services__content">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro eum laudantium quos eos repellendus tempore ea ullam, ex consequuntur temporibus vitae earum sequi aperiam. Reiciendis fugiat recusandae adipisci assumenda facere deserunt modi.</p>
+            </div>
+        </div>
+        <div class="service__item">
+            <div class="services__title">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <div class="services__content">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAACXl5ewsLDu7u7GxsbY2NigoKDp6enJyckgICBra2vAwMAjIyN8fHz4+Ph0dHQyMjJEREQJCQmFhYVTU1Pg4OBsbGzW1tb5+fk5OTnOzs6oqKgrKyu6urpiYmJXV1cWFhZJSUlAQEA3NzeCgoKSkpJ5eXkaGhqQhtyqAAAJ+UlEQVR4nO2d6WKyOhCGQXGtFmutO4q2tt7/FR71U8jMZJmw1IaT92eAkAdCMpNMQhB4eXl5eXl5eTVE8127gdp1H3zLddhQDTs3wPazy1GnWhfA7rMLUa9GQfDx7DLUq3EQPLsIdWvTeMJt4wl7ntB5eUL35QndFyLsRk2QjrD/LP+tUnlC9+UJ3ZcnzNTt1KKuqmAmrTadQYTSYkkal3A0DmvSsF2Ib3a7OBVfQvxzS9sjRh7hT118V73YA/azB97J0uaHR9rGnvC7TsAwnFkTJvnF83tSLEljE/brxCMlYqgnXJve01pCGqgV4E4KwlZYs2xfYiJefH88QzEttiSsfYgxDawE69S/LzGSpPEJax/nX9sRzsHFbUnarvHvcGBJuK2HK1fLjhBWqnsp38S0lSVhXBcZvhFX4vTRo90U29cf8WRwJ1V/WPNLtH2FQTDNL45o2gFYNeBWSpum1v7CvsMP4uPj4tyujR519wC7Vx5hsKyttfkYBEW0/bpcOz6JHV/Qu36LyWwFz2QSXhqwebcOFffQ5t15LElb4TQ2obPyhO7LE7ovHSEZ8nBSOsJOLf3Db0tH2EB5QvflCd2XJ3RfntB9eUL35QndFyLcDeqZ2f5d6Qib7x8238f3hG7IE7ovT+i+PKH78oTuyxO6r1KEkcb7iOXHor5EZD6efReGihPG35/nw3omv/32OD68TXCIczRbn98lSqbpVhGB2X/9Ogyn9hE3uQoTDh5njSTFeoRgwVCZXajTekMzymKV3m1DUMsTbvLTCGJ0yI6JiHrAEEVtA8DQPsq2LOFKCGI948/oRchjmaXG7yZCHKENghA/fpkQvI8tPAYCISdZMis4Dgbug/jyZVBMBQlfxfMW8BjYeGKcveA9hxBEhsIoy6KtTUFCEOb2CY/1QCZZWwuCs9USbwoOnH6XcCqe9waPwbULGSEINVcrVRVuEhTTnyMUv7eGEgqNZkMJhds2lTDvMZpKmHc+LhMmM0EnsJIgTBtBmIIrYnDsKwtkdpkQWZmiJRu+Z2aQy4QpuAK+w6QRhLrv8CgvnGOEOuUoTSXMnbGmEubefEMJm2+XCj5wMwnFnrKZhOL4ayMJwdBkEwnhWNszCY/iedURdmBOzyRcgBPhMbBNyCEzMs2Ee3zDZxIq3tNNn+KhdeYKGQkTfeF+mRCOiYJBb7i7QZqlm98h2cblmYRoQ2Vx5gL4ekKpoX+4iuMlQfz+Q4RoQ5c0PwLfrvB6qQdMJ6N28C7PJISN6aXEj09xhsqcm9ESH58u84fTL08lJNsOnTpRvGzhGTRhSkM2ijHBubyrt0OYBLFMtRHC9kSpnp4QtrtXgY1cOHcYngxzp0UJmZNlwiOWEkZk2lRsUFm3IPOXVRGyXqLwChVjbbRBFeYJmYShdkO0woT0G6IaiucrRhNpg6rw8XXSlbQ4Ia1gRMBRUI2XkgY1nwplE+rmh4sTSioYEuzAlSPC+Iue2hPu6yE0/SkCTe+rx7xRg3qQjwjr9FUTIbZfoFJ0MnApQfcdQZM1sXBH7joGapUi1AUBkZ2DTvBOomB9z6scNHE1+sE3q4wwmKuaG9qAbzRZgyeVG6cjLiHynKskVGwh9SK7VPCasRMhGoFijWPu3aRraMoTBhGoflel8vClVWatS0qUZTIWLdOItd3fWmuclie8lGMk9P77rfqy2eM2Et0b5gks7Yqxcyre+qoGwqv6m9221+7QjaiA4l1vO1Kd0rlkQKNVL5dotTN5F1UR/l15QvflCd2XJ7TTvP26nyZjomSdTlp2W0D226f99E2W1cfiW2elYVVIODJ6/R895uKQgbGjn7a460yqIoy3MChGpR/zqoK4zduaecKLba+IsHdgFeqqF8PD37K9QskCjboI58C7NUo3NBbZbQUrNXGrJ9S6+jKlytdovWPx1FjICgiJ92RWosi6wC8KhqYPuzwhb/AbS1quAs8qNC6mKU1YdAtlCeLCfJVUskVv1RHi2TS2xuRbLL6ltrZ1BmfaExpX3KmFhzIG5ktU0g0mliRkzrHJBYejIvMFaunWRIETrQnRTLClQP7ssVGpNK0NOM+WEO7BdFeSvmAt9mvZuKpYTzeS42HyIcnqU5bVVFnGcoRf5E7HXSQdGVrFXYkxLTSCtEn+bMuzCuK5pHmTrEaugJDMzHxpe98V6e7y+RlSG876X10R04CGG1VBmKK7GNdAjnAFy54INhsm+lHJS63G9rmyUyxBiH+SxFjGitvexyUrlM74IQSeoFU+3hKEyOB+NZeKNCiPuoXqu3Ye4qG5PKtShJ3W6TXXCf2K7eeaOOupP8V5b/Y6Q37y5F9WCc7q1JJtZLD9Fu4/Qy7b4pbaIkPqfMIOc6mywsONbS30IQoBWzFCI65614WO6QgNU9riLWSIUYGf74EPO+b/dQoaS+CQhhBu3q4XWr1+UyHrRxyds7F51MHiGkIrJwnVk6CohS5YKsbAD1EgLBscURPa2cW0LSzo+uXNlp2XJjZ34ICaUGo2KkWrKYnQ4ymvpnbtlO1/1wJb5+2NGJS8wVSi/IOyG0oQR/PAATWhnSOYkneIDTymcuPU7j+htn+Wu+pgcwNqvxUboRjmdcGuqRJvDQ5oCPndYSgbNynmwQtPasW0N24CHSI4ouvxLT51ma/GDv4RBILfLNo6OGwDDmmtNqbRJOsNr7LvEV+ghblh7MJ00x62c+CY3vLeTBiW16dy1itqXU1lVjEvJ50nZLox7h3xWVTnBZ5btCDEQi4769/MMXpI92TksusDt+9aIUNVVdoShNiQ4kznIfP0EVOIOyPOHC/qgJQ+ZQlCPBD1rh9dDyQeVFYTseOgHli6i/hS8q+/JCEZDjKMYyzP6Pwka0vIBJ1hzGdOjCRl8FcZQvo362SrjjLb0P4mn9+k29WdNXP+S2rIk3jOSgil032LWW9E1P5+pWOrYGhFNjX6Is/qJDPj1YUsRcgPNZcKfDoFbfO7NK0vOM+a0MqWw4I+lnSGgKvaYvUtDB0qPJxTeCYy1G+MCU4sMENafPaJ9C0FPazQ0LeAMwsQ0vaUKRonEuHOhCt1O1oFYdFJUlnX2efHCokyTAGUJsy31LWRvO2Li2RlChoqTxhE9t+i6sOJ7b9Fo8FfAaF1oM+RvdDfqLU5ELASQrvANr1v1LepEYywtsqiL3fMgg2/jXGhI2ZVPcxYBayKUGoOE322zavLL+oyDIk3jZFfE+FFm5ZmbPvwalzeImjZ01X8nx1/J/pKCW/qLwdEG/ore1ZWXVlWltvsV0/41+QJ3ZcndF+e0H15Qvf1/ybsRk2QjrCB8oTuyxO6L0/ovppPuG084SCwW7LsnA6Wwcbu6TrJYb0u2yX9m4frHJ5djtqURUZs2q0Gqm238YiXl5eXl5eX11/Wf8of2wZn3NNfAAAAAElFTkSuQmCC" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti porro eum laudantium quos eos repellendus tempore ea ullam, ex consequuntur temporibus vitae earum sequi aperiam. Reiciendis fugiat recusandae adipisci assumenda facere deserunt modi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <hr>
+        <div class="copy"><p>copyright © 2021</p></div>
+    </div>
+
+    
     <script src="./index.js"></script>
 </body>
 </html>
